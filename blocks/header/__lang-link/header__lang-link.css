@@ -1,0 +1,8 @@
+.header__lang-link {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 28px;
+    text-decoration-line: none;
+    color: #fff;
+  }
