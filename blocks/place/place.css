@@ -1,0 +1,7 @@
+.place {
+  max-width: 984px;
+  max-height: 660px;
+  margin: 0 0 80px;
+/*   display: grid;
+  grid-template-columns: repeat(2,1fr); */
+}
