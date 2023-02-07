@@ -1,0 +1,6 @@
+.cover__background {
+  display: flex;
+  z-index: -1;
+  max-width: 1184px;
+  max-height: 740px;
+}

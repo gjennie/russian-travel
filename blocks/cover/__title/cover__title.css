@@ -1,12 +1,11 @@
-.place__title {
-  max-width: 460px;
+.cover__title {
+  max-width: 560px;
   max-height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  margin: 0;
+  text-align: center;
+  margin: 0 0 32px;
   padding: 0;
-  grid-area: title;
-  align-self: end;
 }
