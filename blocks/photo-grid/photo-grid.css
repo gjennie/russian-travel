@@ -3,7 +3,10 @@
   max-width: 1184px;
   max-height: 671px;
   margin: 0 48px 92px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+/*   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr); */
+  grid-template-columns: repeat(4,  minmax(min-content, max-content));
+  grid-template-rows: repeat(3,  minmax(min-content, max-content));
   gap: 16px;
+  grid-auto-rows: ;
 }
