@@ -2,8 +2,29 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin:0;
   padding: 28px 48px 0;
-  height: 52px;
-  width: 1184px;
+  max-height: 52px;
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:1279px) {
+  .header {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .header {
+    width: 720px;
+    padding: 28px 24px 0;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .header {
+    width: 228px;
+    height: 42px;
+    padding: 16px 16px 0;
+  }
 }
