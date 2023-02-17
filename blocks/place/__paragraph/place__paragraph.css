@@ -2,4 +2,30 @@
   max-width: 484px;
   margin: 0;
   padding: 0 0 26px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+@media screen and (max-width:1279px) {
+  .photo-paragraph {
+    width:456px;
+    padding: 0 0 27px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .photo-paragraph {
+    width:352px;
+    padding: 0 0 25px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .photo-paragraph {
+    width:288px;
+    padding: 0 0 25px;
+    font-size: 16px;
+  }
 }
