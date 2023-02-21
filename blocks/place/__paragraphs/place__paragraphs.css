@@ -1,4 +1,25 @@
 .place__paragraphs {
   grid-area: paragraphs;
   align-self: start;
+  margin: 0;
+  padding: 0;
+  line-height: 29.34px;
+  font-size: 18px;
+  font-weight: 400;
 }
+
+@media screen and (max-width:1023px) {
+  .photo-paragraphs {
+    line-height: 26.08px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .photo-paragraphs {
+    line-height: 26.08px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+}
+

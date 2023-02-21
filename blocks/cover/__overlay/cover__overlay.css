@@ -15,3 +15,25 @@
   opacity: 0.2;
   transition: 0.5s;
 }
+
+@media screen and (max-width:1279px) {
+  .cover__overlay {
+    width:1024px;
+    height:640px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .cover__overlay {
+    width:768px;
+    height:480px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cover__overlay {
+    width:320px;
+    height:200px;
+  }
+}
+

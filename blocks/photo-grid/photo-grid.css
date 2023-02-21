@@ -1,8 +1,8 @@
 .photo-grid {
-  display: inline-grid;
+  display: grid;
   max-width: 1184px;
   height: 671px;
-  margin: 0 48px 92px;
+  margin: 0 auto 92px;
   grid-template-columns: repeat(auto-fit,  minmax(284px,1fr));
   grid-template-rows: repeat(auto-fit,  minmax(213px, 1fr));
   gap: 16px;
@@ -22,9 +22,10 @@
   .photo-grid {
     width: 720px;
     height: 1664px;
-    margin: 0 24px 88px;
+    margin: 0 auto 88px;
     grid-template-columns: repeat(auto-fit, minmax(352px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(264px,1fr));
+    gap: 16px;
   }
 }
 
@@ -32,8 +33,9 @@
   .photo-grid {
     width: 288px;
     height: 2724px;
-    margin: 0 16px 64px;
+    margin: 0 auto 64px;
     grid-template-columns: repeat(auto-fit, minmax(288px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(216px,1fr));
+    gap: 12px;
   }
 }

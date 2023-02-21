@@ -2,8 +2,10 @@
   max-width: 484px;
   margin: 0;
   padding: 0 0 26px;
-  font-size: 18px;
-  font-weight: 400;
+}
+
+.place__paragraph:last-child {
+  padding: 0;
 }
 
 
@@ -18,7 +20,7 @@
   .photo-paragraph {
     width:352px;
     padding: 0 0 25px;
-    font-size: 16px;
+    
   }
 }
 
@@ -26,6 +28,5 @@
   .photo-paragraph {
     width:288px;
     padding: 0 0 25px;
-    font-size: 16px;
   }
 }
