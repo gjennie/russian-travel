@@ -3,7 +3,7 @@
 В данном проекте — несколько природных достопримечательностей, которые наверняка запомнятся вам надолго. В эти удивительные красивые места в России вы можете организовать необычное путешествие.
 ### Стек технологий:
 ![HTML5](https://img.shields.io/badge/-HTML5-090909?style=for-the-badge&logo=HTML5)
-![CSS3](https://img.shields.io/badge/-CSS3-090909?style=for-the-badge&logo=CSS3)
+![CSS3](https://img.shields.io/badge/-CSS3-090909?style=for-the-badge&logo=CSS3)  
 Так же, в отличии от предыдущих проектов, использовалась адаптивная вёрстка и Grid.
 
 **Figma**
