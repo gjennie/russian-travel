@@ -13,4 +13,6 @@
 ## Инструкция по установке:
 1. Клонировать репозиторий
 `git clone https://github.com/gjennie/russian-travel.git`
-2. Запустить с помощью liveServer
+2. Запустить с помощью liveServer  
+### Другой способ:
+1. Перейти по ссылке `https://gjennie.github.io/russian-travel/`
