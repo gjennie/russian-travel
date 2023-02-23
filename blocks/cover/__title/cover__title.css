@@ -29,11 +29,12 @@
 
 @media screen and (max-width:767px) {
   .cover__title {
+    width: 288px;
     top: 33px;
     left: 16px;
     font-size: 32px;
     line-height: 35px;
-    margin: 0 0 32px;
+    margin: 0 0 16px;
   }
 }
 
