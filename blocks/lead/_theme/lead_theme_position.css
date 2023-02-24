@@ -1,0 +1,21 @@
+.lead_theme_position {
+  margin: 56px auto 92px;
+}
+
+@media screen and (max-width:1279px) {
+  .lead_theme_position {
+  margin: 48px auto 92px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .lead_theme_position {
+    margin: 48px auto 88px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .lead_theme_position {
+    margin: 48px auto 64px;
+  }
+}

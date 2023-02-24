@@ -2,10 +2,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 28px 48px 0;
   max-height: 52px;
   max-width: 1184px;
-  margin: 0 auto;
 }
 
 @media screen and (max-width:1279px) {
@@ -17,13 +15,11 @@
 @media screen and (max-width:1023px) {
   .header {
     width: 720px;
-    padding: 28px 24px 0;
   }
 }
 
 @media screen and (max-width:767px) {
   .header {
     width: 288px;
-    padding: 16px 16px 0;
   }
 }

@@ -1,0 +1,11 @@
+.footer_theme_position {
+  margin: 0 auto;
+  padding: 0 0 24px;
+}
+
+@media screen and (max-width:767px) {
+  .footer_theme_position {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
