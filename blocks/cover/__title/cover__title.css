@@ -8,30 +8,12 @@
   text-align: center;
   margin: 0 0 32px;
   padding: 0;
-  position: absolute;
-  top: 245px;
-  left: 312px;
-}
-
-@media screen and (max-width:1279px) {
-  .cover__title {
-    top: 195px;
-    left: 232px;
-  }
-}
-
-@media screen and (max-width:1023px) {
-  .cover__title {
-    top: 115px;
-    left: 104px;
-  }
+  z-index: 1;
 }
 
 @media screen and (max-width:767px) {
   .cover__title {
     width: 288px;
-    top: 33px;
-    left: 16px;
     font-size: 32px;
     line-height: 35px;
     margin: 0 0 16px;
