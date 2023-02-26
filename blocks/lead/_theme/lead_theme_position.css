@@ -1,21 +1,25 @@
 .lead_theme_position {
-  margin: 56px auto 92px;
+  margin: 56px 0 92px;
+  padding: 0 148px;
 }
 
 @media screen and (max-width:1279px) {
   .lead_theme_position {
-  margin: 48px auto 92px;
+  margin: 48px 0 92px;
+  padding: 0 48px;
   }
 }
 
 @media screen and (max-width:1023px) {
   .lead_theme_position {
-    margin: 48px auto 88px;
+    margin: 48px 0 88px;
+    padding: 0;
   }
 }
 
 @media screen and (max-width:767px) {
   .lead_theme_position {
-    margin: 48px auto 64px;
+    margin: 48px 0 64px;
+    padding: 0;
   }
 }
