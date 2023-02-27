@@ -4,8 +4,7 @@
   }
 }
 
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:320px) {
   .place__title_letter-spacing {
     letter-spacing: 0;
   }
