@@ -6,13 +6,14 @@
   align-items: center;
   max-width: 1184px;
   width: 100%;
-  height: 740px;
+  min-height: 740px;
   background-image: url(../../../images/__background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 .cover__overlay:before {
@@ -33,21 +34,18 @@
 
 @media screen and (max-width:1279px) {
   .cover__overlay {
-    width:100%;
-    height:640px;
+    min-height:640px;
   }
 }
 
 @media screen and (max-width:1023px) {
   .cover__overlay {
-    width:100%;
-    height:480px;
+    min-height:480px;
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:320px) {
   .cover__overlay {
-    width:320px;
-    height:200px;
+    min-height:200px;
   }
 }

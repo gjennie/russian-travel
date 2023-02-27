@@ -1,15 +1,18 @@
 .photo-grid_theme_position {
   margin: 0 auto 92px;
+  padding: 0 48px;
 }
 
 @media screen and (max-width:1023px) {
   .photo-grid_theme_position {
     margin: 0 auto 88px;
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width:767px) {
   .photo-grid_theme_position {
     margin: 0 auto 64px;
+    padding: 0 16px;
   }
 }

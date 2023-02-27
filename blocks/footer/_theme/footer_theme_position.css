@@ -3,9 +3,8 @@
   padding: 0 0 24px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:320px) {
   .footer_theme_position {
-    margin: 0 auto;
     padding: 0;
   }
 }
