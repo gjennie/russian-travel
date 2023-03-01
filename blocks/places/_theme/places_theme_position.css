@@ -1,25 +1,21 @@
 .places_theme_position {
   margin: 0 auto 90px;
-  padding: 0 148px;
 }
 
 @media screen and (max-width:1279px) {
   .places_theme_position {
     margin: 0 auto 92px;
-    padding: 0 48px;
   }
 }
 
 @media screen and (max-width:1023px) {
   .places_theme_position {
     margin: 0 auto 90px;
-    padding: 0 24px;
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
   .places_theme_position {
     margin: 0 auto 66px;
-    padding: 0;
   }
 }

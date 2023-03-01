@@ -2,23 +2,25 @@
   max-width: 484px;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width:1279px) {
   .place__paragraph {
-    width:456px;
+    width: 456px;
   }
 }
 
 @media screen and (max-width:1023px) {
   .place__paragraph {
-    width:352px;
+    width: 352px;
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
   .place__paragraph {
-    width:288px;
+    min-width: 288px;
+    width: 100%;
     padding: 0 16px 0;
   }
 }

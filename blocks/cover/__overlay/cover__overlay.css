@@ -13,7 +13,6 @@
   background-position: center;
   color: #fff;
   text-decoration: none;
-  margin: 0 auto;
 }
 
 .cover__overlay:before {
@@ -40,12 +39,18 @@
 
 @media screen and (max-width:1023px) {
   .cover__overlay {
-    min-height:480px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width:676px) {
+  .cover__overlay {
+    min-height: 350px;
   }
 }
 
 @media screen and (max-width:320px) {
   .cover__overlay {
-    min-height:200px;
+    min-height: 200px;
   }
 }

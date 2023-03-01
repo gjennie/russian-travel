@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
   .lead_theme_position {
     margin: 48px 0 64px;
   }

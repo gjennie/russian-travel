@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
   .header_theme_position {
     padding: 16px 16px 0;
   }
